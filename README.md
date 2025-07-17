@@ -1,14 +1,16 @@
-<p align="center">
+# Multimodal Fusion Framework Using Contrastive Learning for Exposure Keratopathy
 
-  <h1 align="center">Multimodal Fusion Framework Using Contrastive Learning for Exposure Keratopathy</h1>
-  <p align="center">
-    <b>Gyutae Oh</b> (Department of Electrical and Computer Engineering, Sungkyunkwan University, alswo740012@g.skku.edu) ·
-    <b>Yeokyoung Won</b> (Department of Ophthalmology, Samsung Medical Center, Sungkyunkwan University School of Medicine, wyk900105@hanmail.net) ·
-    <b>Donghui Lim</b> (Department of Ophthalmology, Samsung Medical Center, Sungkyunkwan University School of Medicine, ldhlse@gmail.com) ·
-    <b>Jitae Shin</b> (Department of Electrical and Computer Engineering, Sungkyunkwan University, jtshin@skku.edu)
-  </p>
-  <h3 align="center"><a href="https://github.com/GYUGYUT/Multimodal-FusionFramework-Using-Contrastive-Learning-for-Exposure-Keratopathy">[Paper/Code GitHub]</a></h3>
-</p>
+**Gyutae Oh<sup>1,†</sup>**, **Yeokyoung Won<sup>2</sup>**, **Donghui Lim<sup>2,*</sup>**, **Jitae Shin<sup>1,*</sup>**
+
+<sup>1</sup>Department of Electrical and Computer Engineering, Sungkyunkwan University  
+<sup>2</sup>Department of Ophthalmology, Samsung Medical Center, Sungkyunkwan University School of Medicine
+
+† First author  
+* Corresponding author
+
+Contact: alswo740012@g.skku.edu, wyk900105@hanmail.net, ldhlse@gmail.com, jtshin@skku.edu
+
+[Paper/Code GitHub](https://github.com/GYUGYUT/Multimodal-FusionFramework-Using-Contrastive-Learning-for-Exposure-Keratopathy)
 
 <p align="center">
   <img src="./image/Figure1.png" alt="Framework Overview" width="80%"><br>
