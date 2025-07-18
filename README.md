@@ -30,12 +30,12 @@ Contact: alswo740012@g.skku.edu, wyk900105@hanmail.net, ldhlse@gmail.com, jtshin
 
 # Overview
 
-This repository implements a two-stage multimodal fusion framework for automated grading of exposure keratopathy using four complementary anterior segment imaging modalities (broad-beam, slit-beam, scatter, blue-light).
+This project proposes a two-stage multimodal fusion framework for the automated grading of exposure keratopathy. Although accurate diagnosis requires multiple illumination-based anterior segment images (broad-beam, slit-beam, scatter, blue-light), acquiring all modalities is often impractical in clinical settings.
+To address this, our framework performs contrastive multimodal learning during training, but requires only a single broad-beam image at inference time.
+	•	Stage 1: We apply Grade Based Learning(GBL) and Beam Based Learning(BBL) using contrastive loss to help the broad-beam image encode rich pathological features from the other modalities.
+	•	Stage 2: We introduce Dynamic Feature Fusion(DFF), which adaptively combines feature vectors learned in Stage 1, enhancing classification performance using only broad-beam input.
 
-- **Stage 1:** Grade Based Learning & Beam Based Learning (contrastive learning-based multimodal feature fusion)
-- **Stage 2:** Dynamic Feature Fusion (utilizes only broad-beam input at inference, leveraging multimodal information)
-- Achieves over 16% improvement in F1 score and accuracy compared to single-modality baselines; maintains high performance in real clinical settings with only a single image at inference.
-
+Our method improves diagnostic performance by an average of +16% in accuracy and +13% in F1 score compared to single-modality baselines. It enables practical deployment in real-world medical settings by reducing imaging requirements without compromising performance.
 # Installation
 ```bash
 pip install -r requirements.txt
