@@ -1,12 +1,13 @@
 # Multimodal Fusion Framework Using Contrastive Learning for Exposure Keratopathy
 
-**Gyutae Oh<sup>1,†</sup>**, **Yeokyoung Won<sup>2</sup>**, **Donghui Lim<sup>2,</sup>**, **Jitae Shin<sup>1,*</sup>**
+**Gyutae Oh<sup>1,*</sup>**, **Yeokyoung Won<sup>2</sup>**, **Donghui Lim<sup>2,</sup>**, **Jitae Shin<sup>1,†</sup>**
 
 <sup>1</sup>Department of Electrical and Computer Engineering, Sungkyunkwan University  
 <sup>2</sup>Department of Ophthalmology, Samsung Medical Center, Sungkyunkwan University School of Medicine
 
-† First author  
-* Corresponding author
+* First author  
+† Corresponding author 
+
 
 Contact: alswo740012@g.skku.edu, wyk900105@hanmail.net, ldhlse@gmail.com, jtshin@skku.edu
 
@@ -14,12 +15,12 @@ Contact: alswo740012@g.skku.edu, wyk900105@hanmail.net, ldhlse@gmail.com, jtshin
 
 <p align="center">
   <img src="./image/Figure1.png" alt="Framework Overview" width="80%"><br>
-  <i>Figure 1. Overview of the proposed multimodal fusion framework for exposure keratopathy grading.</i>
+  <i>Figure 1. This figure illustrates the overall architecture, showing the general workflow and example images for the broad-beam, slit-beam, blue-light, and scatter modalities. However, because the data used in this experiment are strictly prohibited from external distribution, we obtained prior permission from the first and corresponding authors to use similar images from [30] (CC BY 4.0) as alternatives.</i>
 </p>
 
 <p align="center">
   <img src="./image/Figure2.png" alt="Feature Visualization" width="80%"><br>
-  <i>Figure 2. UMAP visualization of learned features by modality and grade.</i>
+  <i>Figure 2. This figure uses UMAP[23] to visualize the features before and after training with our proposed method for each independently trained backbone, grouped by modality and grade. Detailed information for each modality and grade is shown on the right side of the figure. Identical colors represent the same grade, and identical shapes represent the same modality.</i>
 </p>
 
 <p align="center">
