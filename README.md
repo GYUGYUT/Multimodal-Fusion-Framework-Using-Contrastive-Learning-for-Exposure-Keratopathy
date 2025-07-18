@@ -56,13 +56,26 @@ bash run_train.sh
 - Training and evaluation results will be saved in the `result/` folder.
 
 # Main Results
-| Method           | Accuracy | F1 Score |
-|------------------|----------|----------|
-| Single (Broad)   | 0.7045   | 0.7049   |
-| Single (Slit)    | 0.6692   | 0.6510   |
-| Single (Blue)    | 0.6447   | 0.6368   |
-| Single (Scatter) | 0.6957   | 0.6729   |
-| **Ours**         | **0.8409** | **0.8379** |
+
+## Table 2. Comparison of Individual and Combined Training Results
+| Train Method | Train Data | Accuracy | Specificity | Sensitivity | F1 Score |
+|--------------|------------|----------|-------------|-------------|----------|
+| Supervised   | Broad-beam | 0.7045   | 0.9008      | 0.7015      | 0.7049   |
+| Supervised   | Slit-beam  | 0.6692   | 0.8787      | 0.6686      | 0.6510   |
+| Supervised   | Blue-light | 0.6447   | 0.8758      | 0.6407      | 0.6368   |
+| Supervised   | Scatter    | 0.6957   | 0.8900      | 0.6685      | 0.6729   |
+| Supervised   | Total      | 0.6865   | 0.8880      | 0.6783      | 0.6789   |
+| **Ours**     | Stage 1:Total / Stage2:Broad | **0.8409** | **0.9462** | **0.8382** | **0.8379** |
+
+## Table 3. Ablation Study: Performance Evaluation by Removing GBL, BBL, DFF
+| GBL | BBL | DFF | Accuracy | Specificity | Sensitivity | F1 Score |
+|-----|-----|-----|----------|-------------|-------------|----------|
+| ✓   | ✓   |     | 0.7500   | 0.9154      | 0.7492      | 0.7563   |
+| ✓   |     | ✓   | 0.7727   | 0.9235      | 0.7700      | 0.7710   |
+|     | ✓   | ✓   | 0.7727   | 0.9232      | 0.7678      | 0.7685   |
+| ✓   | ✓   | ✓   | 0.7954   | 0.9315      | 0.7969      | 0.7958   |
+|     |     | ✓   | 0.6590   | 0.8858      | 0.6640      | 0.6634   |
+| ✓   | ✓   | ✓   | **0.8409** | **0.9462** | **0.8382** | **0.8167** |
 
 # Citation
 ```bibtex
