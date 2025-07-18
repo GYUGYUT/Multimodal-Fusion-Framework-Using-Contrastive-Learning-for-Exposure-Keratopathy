@@ -30,12 +30,32 @@ Contact: alswo740012@g.skku.edu, wyk900105@hanmail.net, ldhlse@gmail.com, jtshin
 
 # Overview
 
-This project proposes a two-stage multimodal fusion framework for the automated grading of exposure keratopathy. Although accurate diagnosis requires multiple illumination-based anterior segment images (broad-beam, slit-beam, scatter, blue-light), acquiring all modalities is often impractical in clinical settings.
-To address this, our framework performs contrastive multimodal learning during training, but requires only a single broad-beam image at inference time.
-	•	Stage 1: We apply Grade Based Learning(GBL) and Beam Based Learning(BBL) using contrastive loss to help the broad-beam image encode rich pathological features from the other modalities.
-	•	Stage 2: We introduce Dynamic Feature Fusion(DFF), which adaptively combines feature vectors learned in Stage 1, enhancing classification performance using only broad-beam input.
+🔍 Overview
 
-Our method improves diagnostic performance by an average of +16% in accuracy and +13% in F1 score compared to single-modality baselines. It enables practical deployment in real-world medical settings by reducing imaging requirements without compromising performance.
+This project proposes a two-stage multimodal fusion framework for the automated grading of exposure keratopathy.
+
+Although accurate diagnosis requires multiple illumination-based anterior segment images —
+broad-beam, slit-beam, scatter, and blue-light — acquiring all modalities is often impractical in real-world clinical settings.
+
+To overcome this challenge, our method performs multimodal contrastive learning during training, but requires only a single broad-beam image at inference.
+
+🧠 Method
+
+Stage 1: Contrastive Multimodal Representation Learning
+	•	Applies Grade Based Learning (GBL) and Beam Based Learning (BBL)
+	•	Encourages the broad-beam image to encode pathological cues from the other three modalities
+
+Stage 2: Dynamic Feature Fusion (DFF)
+	•	Fuses feature vectors from Stage 1 via a learnable scalar weight (α)
+	•	Achieves high classification accuracy using only broad-beam input
+
+📈 Results
+
+Compared to single-modality baselines:
+	•	+16% improvement in accuracy
+	•	+13% improvement in F1 score
+
+This framework enables efficient, high-performance diagnosis with minimal imaging requirements — making it well-suited for real-world deployment in medical environments.
 # Installation
 ```bash
 pip install -r requirements.txt
