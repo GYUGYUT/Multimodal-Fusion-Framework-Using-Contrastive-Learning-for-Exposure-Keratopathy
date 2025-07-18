@@ -1,6 +1,6 @@
 # Multimodal Fusion Framework Using Contrastive Learning for Exposure Keratopathy
 
-**Gyutae Oh<sup>1,†</sup>**, **Yeokyoung Won<sup>2</sup>**, **Donghui Lim<sup>2,*</sup>**, **Jitae Shin<sup>1,*</sup>**
+**Gyutae Oh<sup>1,†</sup>**, **Yeokyoung Won<sup>2</sup>**, **Donghui Lim<sup>2,</sup>**, **Jitae Shin<sup>1,*</sup>**
 
 <sup>1</sup>Department of Electrical and Computer Engineering, Sungkyunkwan University  
 <sup>2</sup>Department of Ophthalmology, Samsung Medical Center, Sungkyunkwan University School of Medicine
