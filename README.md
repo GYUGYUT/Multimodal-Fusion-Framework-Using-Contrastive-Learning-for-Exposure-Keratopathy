@@ -11,7 +11,7 @@
 
 Contact: alswo740012@g.skku.edu, wyk900105@hanmail.net, ldhlse@gmail.com, jtshin@skku.edu
 
-[Paper/Code GitHub](https://github.com/GYUGYUT/Multimodal-FusionFramework-Using-Contrastive-Learning-for-Exposure-Keratopathy)
+[Paper/Code GitHub](https://github.com/GYUGYUT/Multimodal-Fusion-Framework-Using-Contrastive-Learning-for-Exposure-Keratopathy)
 
 <p align="center">
   <img src="./image/Figure1.png" alt="Framework Overview" width="80%"><br>
