@@ -62,9 +62,12 @@ pip install -r requirements.txt
 ```
 
 # Data Preparation
-- Prepare Excel (.xlsx) files for each modality containing image IDs and grade (label) information.
-- Image files should be stored in the `SMC_New_original` folder (file names must match the 'Detailed ID' column in the Excel files).
-- **You must provide your own data. Edit the Excel file names and image folder path in `run_train.sh` to match your dataset.**
+The study was approved by the Institutional Review Board (IRB) of the Samsung Medical Center (IRB no. 2024-12-004).
+Accordingly, the dataset used in this study cannot be publicly released due to privacy regulations.
+Only the training code is provided, and users are required to prepare their own datasets.
+If a dataset is prepared, an .xlsx file containing data split information must be created, and the correct path should be specified in the run_train.sh script.
+Depending on the dataset structure, modifications to the smc_dataloader may also be necessary.
+
 - Example (see `run_train.sh`):
   - `BROAD_TRAIN="grade_photo1_train.xlsx"` (replace with your own train file)
   - `IMAGE_FOLDER="SMC_New_original"` (replace with your own image folder)
