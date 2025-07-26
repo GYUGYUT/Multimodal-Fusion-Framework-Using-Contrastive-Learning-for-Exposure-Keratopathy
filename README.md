@@ -9,8 +9,9 @@ Sungkyunkwan University School of Medicine, Seoul 06351, Republic of Korea
 <sup>4</sup>Samsung Advanced Institute for Health Sciences and Technology,
 Sungkyunkwan University, Seoul 03063, Republic of Korea
 
-* First author  
-† Corresponding author 
+* These authors contributed equally as co-first authors.
+† These authors jointly supervised this work as co-corresponding authors.
+
 
 
 Contact: alswo740012@g.skku.edu, wyk900105@hanmail.net, ldhlse@gmail.com, jtshin@skku.edu
