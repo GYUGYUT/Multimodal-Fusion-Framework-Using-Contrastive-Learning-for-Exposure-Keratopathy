@@ -157,6 +157,19 @@ For questions and collaborations, please reach out to:
 
 ---
 
+## ⚖️ License & Disclaimer
+
+**Copyright © 2024 Gyutae Oh, Yeokyoung Won, Donghui Lim, Jitae Shin. All rights reserved.**
+
+**This code is released solely for verification and performance evaluation purposes.**
+
+- **Commercial Use Prohibited**: This code cannot be used for any commercial purposes.
+- **No Modification or Redistribution**: Modification, distribution, or redistribution of this code is strictly prohibited.
+- **Academic Use Only**: This code is intended for research and educational purposes only.
+- **Disclaimer**: The authors are not responsible for any issues that may arise from using this code.
+
+---
+
 <div align="center">
 
 **⭐ Star this repository if you find it helpful!**
