@@ -133,6 +133,8 @@ bash run_train.sh
 
 ## 📚 Citation
 
+**Note**: This paper is currently under review and will be updated once published.
+
 If you find this work useful, please cite our paper:
 
 ```bibtex
@@ -143,6 +145,8 @@ If you find this work useful, please cite our paper:
   year={2024}
 }
 ```
+
+*Citation information will be updated upon publication.*
 
 ---
 
