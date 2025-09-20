@@ -159,7 +159,7 @@ For questions and collaborations, please reach out to:
 
 ## ⚖️ License & Disclaimer
 
-**Copyright © 2024 Gyutae Oh, Yeokyoung Won, Donghui Lim, Jitae Shin. All rights reserved.**
+**Copyright © 2025 Gyutae Oh. All rights reserved.**
 
 **This code is released solely for verification and performance evaluation purposes.**
 
